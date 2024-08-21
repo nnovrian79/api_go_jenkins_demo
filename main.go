@@ -12,15 +12,7 @@ func handler(w http.ResponseWriter, r *http.Request) {
 	fmt.Fprintf(w, "Baris ini ditulis oleh sumar")
 	fmt.Fprintf(w, "Hello, World apa kabar raki")
 	fmt.Fprintf(w, "Baris ini ditulis oleh raki")
-	fmt.Fprintfa(w, "Hello1, World apa kabar arif")
-	fmt.Fprintfa(w, "Baris ini ditulis oleh arif")
-	fmt.Fprintfb(w, "Hello2, World apa kabar nova")
-	fmt.Fprintfb(w, "Baris, ini ditulis oleh nova")
-	fmt.Fprintf(w, "Hello, World apa kabar sumar")
-	fmt.Fprintf(w, "Baris ini ditulis oleh sumar")
-	fmt.Fprintfc(w, "Hello3, World apa kabar raki")
-	fmt.Fprintfc(w, "Baris ini, ditulis oleh raki")
-	fmt.Fprintfc(w, "versi 2")
+	
 
 }
 
